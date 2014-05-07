@@ -1,0 +1,16 @@
+{
+  "name": "beer-api",
+  "version": "0.0.1",
+  "main": "./beer.api.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+   "dependencies": {
+    "jquery": "latest",
+    "requirejs": "latest"
+  }
+}
