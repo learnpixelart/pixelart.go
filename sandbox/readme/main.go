@@ -7,7 +7,7 @@ import (
 )
 
 
-var dir = "../basic"
+var dir = "../../../punks.blocks/basic"
 
 
 func main() {
@@ -15,7 +15,7 @@ func main() {
 
   ///////////
   // read in f(emale) attributes
-  female2        := pixelart.ReadImage( dir + "/female2.png" )
+  female2        := pixelart.ReadImage( dir + "/human-female_dark.png" )
   earring        := pixelart.ReadImage( dir + "/f/earring.png" )
   blondebob      := pixelart.ReadImage( dir + "/f/blondebob.png" )
   greeneyeshadow := pixelart.ReadImage( dir + "/f/greeneyeshadow.png" )
@@ -28,8 +28,8 @@ func main() {
   punk.Paste( blondebob )
   punk.Paste( greeneyeshadow )
 
-  punk.Save( "./punk0.png" )
-  punk.Zoom(20).Save( "./punk0@20x.png" )
+  punk.Save( "./tmp/punk0.png" )
+  punk.Zoom(20).Save( "./tmp/punk0@20x.png" )
 
   // (re)try with background
   punk = pixelart.NewImage( 24, 24 ).Background( "#60A4F7" )
@@ -38,13 +38,13 @@ func main() {
   punk.Paste( blondebob )
   punk.Paste( greeneyeshadow )
 
-  punk.Save( "./bluepunk0.png" )
-  punk.Zoom(20).Save( "./bluepunk0@20x.png" )
+  punk.Save( "./tmp/bluepunk0.png" )
+  punk.Zoom(20).Save( "./tmp/bluepunk0@20x.png" )
 
 
   ///////////
   // read in m(ale) attributes
-  male1   := pixelart.ReadImage( dir + "/male1.png" )
+  male1   := pixelart.ReadImage( dir + "/human-male_darker.png" )
   smile   := pixelart.ReadImage( dir + "/m/smile.png" )
   mohawk  := pixelart.ReadImage( dir + "/m/mohawk.png" )
 
@@ -54,8 +54,8 @@ func main() {
   punk.Paste( smile )
   punk.Paste( mohawk )
 
-  punk.Save( "./punk1.png" )
-  punk.Zoom(20).Save( "./punk1@20x.png" )
+  punk.Save( "./tmp/punk1.png" )
+  punk.Zoom(20).Save( "./tmp/punk1@20x.png" )
 
   // (re)try with background
   punk = pixelart.NewImage( 24, 24 ).Background( "#60A4F7" )
@@ -63,8 +63,8 @@ func main() {
   punk.Paste( smile )
   punk.Paste( mohawk )
 
-  punk.Save( "./bluepunk1.png" )
-  punk.Zoom(20).Save( "./bluepunk1@20x.png" )
+  punk.Save( "./tmp/bluepunk1.png" )
+  punk.Zoom(20).Save( "./tmp/bluepunk1@20x.png" )
 
-  fmt.Println( "Bye")
+  fmt.Println( "bye")
 }

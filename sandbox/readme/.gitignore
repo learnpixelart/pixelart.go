@@ -1,0 +1,6 @@
+########
+# ignore go.mod and go.sum for samples
+go.mod
+go.sum
+
+
