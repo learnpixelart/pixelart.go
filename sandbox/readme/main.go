@@ -1,12 +1,3 @@
-# pixelart Package
-
-Let's You Read and Write Pixel Art Images in the Portable Network Graphics (PNG) Format Including Support for Composites and Special Effects (Mirror, Zoom, Flip, etc.) and More
-
-
-Example:
-
-
-``` go
 package main
 
 
@@ -77,15 +68,3 @@ func main() {
 
   fmt.Println( "Bye")
 }
-```
-
-
-
-For more see [**Let's Go! Programming (Crypto) Pixel Punk Profile Pictures & (Generative) Art with Go - Step-by-Step Book / Guide »**](https://github.com/cryptopunksnotdead/lets-go-programming-cryptopunks)
-
-
-
-
-## Questions? Comments?
-
-Yes, you can. Post them on the [D.I.Y. Punk (Pixel) Art reddit](https://old.reddit.com/r/DIYPunkArt). Thanks.
